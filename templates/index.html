@@ -1,0 +1,23 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Symbol</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in portfolio %}
+        <tr>
+            <td>{{ item.symbol }}</td>
+            <td>{{ item.shares }}</td>
+            <td>{{ item.price | usd }}</td>
+            <td>{{ item.total | usd }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<h3>Cash: {{ cash | usd }}</h3>
+<h3>Total Portfolio Value: {{ grand_total | usd }}</h3>
