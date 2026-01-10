@@ -55,3 +55,61 @@ Users can search for real-time stock prices using an external API.
 ---
 
 ## 🗂 Project Structure
+finance/
+│
+├── app.py              # Main Flask route handlers
+├── helpers.py          # API lookup + custom utilities
+├── finance.db          # SQLite database
+│
+├── static/
+│   ├── styles.css
+│   ├── favicon.ico
+│
+└── templates/
+├── layout.html
+├── index.html
+├── quote.html
+├── quoted.html
+├── buy.html
+├── sell.html
+├── history.html
+├── register.html
+├── login.html
+├── apology.html
+
+---
+
+## 💡 What I Learned
+
+Developing CS50 Finance improved several key backend engineering skills:
+
+- Flask routing, templates, sessions
+- Using SQLite and SQL queries safely
+- API integration and JSON parsing
+- Server-side input validation
+- Designing relational database schemas
+- Managing state and persistent data
+- Handling edge cases and user errors
+- Debugging backend logic
+
+This project strengthened my understanding of backend architecture and web application logic.
+
+---
+
+## ▶️ How to Run Locally
+
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Start Flask server:
+flask run
+
+3. Visit in browser:
+http://127.0.0.1:5000/
+---
+
+## 📜 Notes
+
+This project is based on Harvard CS50x Week 9 (Flask), but heavily customized and extended by me.
+
+---
