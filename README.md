@@ -1,4 +1,4 @@
-# CS50 Finance — Stock Trading Simulator
+# Stock Trading Simulator
 
 A web-based stock trading simulator built with **Python**, **Flask**, and **SQLite**, replicating the core logic of an online brokerage system. This project was developed as part of Harvard’s CS50x and extended with additional backend improvements.
 
