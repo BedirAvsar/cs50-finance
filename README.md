@@ -2,9 +2,6 @@
 
 A web-based stock trading simulator built with Python, Flask, and SQLite for Harvard’s CS50x course.
 
-## 📺 Video Demo
-TBA — Coming soon
-
 ## 📘 Description
 
 CS50 Finance is a fully functional mini stock trading platform that allows users to register, log in, get real stock quotes, buy and sell shares, manage their portfolio, and view transaction history.
